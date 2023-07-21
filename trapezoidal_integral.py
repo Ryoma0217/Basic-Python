@@ -3,6 +3,7 @@ from math import sin
 # print(sin(0))
 # >>> 0
 # -----------
+import math
 def integral (f,a=0,b=1,n=100):
   h = (b-a)/n
   S = 0
@@ -11,7 +12,6 @@ def integral (f,a=0,b=1,n=100):
     f2 = f(a+i*h)
     S += h*(f1+f2)/2
     return float(S)
-from math import sin
 result1 = integral(sin,0,math.pi/2,50)
 result1
 
