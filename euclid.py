@@ -10,6 +10,6 @@ def euclid(a,b):
     return int(x)
 
     if (x==1 and y==0):
-    return True
+     return True
   else:
     return False
