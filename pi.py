@@ -4,4 +4,9 @@ text = """
 """
 
 # TODO
+x = text.replace(""",""",""" """).replace(""".""",""" """)
+y = list(map(len,(x.split())))
+s = ""
+s_y =[str(n) for n in y]
+print(s.join(s_y))
 

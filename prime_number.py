@@ -1,4 +1,9 @@
-a = input("aの値を入力: ")
-b = input("bの値を入力: ")
+def primenumber (n):
 
-# TODO
+  if n<2:
+   return False
+  for i in range(2,n):
+   if (n%i==0):
+    return False
+  else:
+    return True
